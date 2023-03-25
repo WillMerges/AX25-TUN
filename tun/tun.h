@@ -1,3 +1,6 @@
+#ifndef TUN_H
+#define TUN_H
+
 /// @brief open a TUN device
 /// @param dev_name     the name of the TUN device
 /// @return the file descriptor to the device, or -1 on error
@@ -6,3 +9,5 @@ int tun_open(char* dev_name);
 
 /// TODO
 /// int set_mtu(int fd);
+
+#endif
