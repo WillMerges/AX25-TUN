@@ -1,6 +1,12 @@
 #ifndef KISS_H
 #define KISS_H
 
+// keep it simple, stupid!
+
+#include <stdint.h>
+
+// referenced http://www.ax25.net/kiss.aspx
+
 // special characters
 #define KISS_FEND           0xC0
 #define KISS_FESC           0xDB
@@ -27,6 +33,6 @@
 ///                         escaped plus frame end characters).
 /// @return the size of frame in 'dst', or -1 on error
 ssize_t gen_kiss_frame(uint8_t* payload, size_t payload_len,
-                      uint8_t* dst, size_t dst_len);
+                       uint8_t* dst, size_t dst_len);
 
 #endif
