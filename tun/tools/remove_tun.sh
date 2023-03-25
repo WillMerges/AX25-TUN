@@ -4,7 +4,7 @@
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: ./remove_tun.sh (interface_name)"
-    echo "  Remove the TUn device named 'interface_name'"
+    echo "  Remove the TUN device named 'interface_name'"
     exit 1
 fi
 

@@ -1,3 +1,12 @@
+/*******************************************************************************
+*
+*  Name: ax25.h
+*
+*  Purpose: Contains AX.25 protocol information and usage functions.
+*
+*  Author: Will Merges
+*
+*******************************************************************************/
 #ifndef AX25_H
 #define AX25_H
 

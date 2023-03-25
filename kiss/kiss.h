@@ -1,3 +1,12 @@
+/*******************************************************************************
+*
+*  Name: kiss.h
+*
+*  Purpose: Defines functions for the usage of the KISS protocol.
+*
+*  Author: Will Merges
+*
+*******************************************************************************/
 #ifndef KISS_H
 #define KISS_H
 

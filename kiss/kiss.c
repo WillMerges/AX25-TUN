@@ -1,3 +1,12 @@
+/*******************************************************************************
+*
+*  Name: kiss.c
+*
+*  Purpose: Implements functions for the usage of the KISS protocol.
+*
+*  Author: Will Merges
+*
+*******************************************************************************/
 #include <stdlib.h>
 
 #include "kiss.h"
